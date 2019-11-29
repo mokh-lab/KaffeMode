@@ -1,0 +1,11 @@
+body {
+ background-image: url("Coffee_Beans.jpg");
+ background-color: #cccccc;
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  
+}
